@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: "Passion One", cursive;
+  --fonte3: "Sriracha", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+  .titulo-cabecalho {
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+  }
+
+  .paragrafo-cabecalho {
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
+  }
+  .link-cabecalho {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  .link-cabecalho:hover {
+    text-decoration: underline;
+  }
+}
+.primeira-parte {
+  background-image: url(imagens/background001.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.segunda-parte {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+ .fundo-branco {
+    background-color: white;
+    padding: 90px 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    line-height: 2em;
+
+
+    p {
+        padding-bottom: 50px;
+     }
+ }
+ .fundo-transparente {
+    padding: 90px 30px;
+ }
+ .paragrafo-transparente{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    width: 44.2%;
+    font-family: var(--fonte3);
+    font-size: 3.4vw;
+    line-height: 2em;
+    padding:  5px; 
+ }
+
+ 
+
+
+
+  .rodape{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 10px;
+
+    .link-rodape {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .link-rodape:hover {
+        text-decoration: underline;
+    }
+
+  }
+
+
