@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas </title>
+    <style>
+        table{
+            width: 200px;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        #espaco-a {
+            background-color: violet;
+        }
+        #espaco-b {
+            background-color: rgb(130, 173, 238);
+        }
+        #espaco-c {
+            background-color: rgb(130, 238, 188);
+        }
+        #espaco-d {
+            background-color: rgb(231, 238, 130);
+        }
+        #espaco-e {
+            background-color: rgb(238, 161, 130);
+        }
+        #espaco-f {
+            background-color: rgb(130, 238, 229);
+        }
+        #espaco-g {
+            background-color: rgb(191, 238, 130);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td colspan="2" id="espaco-a">A</td>
+            
+            <td id="espaco-b">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3" id="espaco-c">C</td>
+            <td id="espaco-d">D</td>
+            <td rowspan="2" id="espaco-e">E</td>
+        </tr>
+        <tr>
+            
+            <td id="espaco-f">F</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="2" id="espaco-g">G</td>
+            
+        </tr>
+    </table>
+    
+</body>
+</html>
