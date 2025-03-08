@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 10px;
+}
+ caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+th {
+    background-color: gray;
+    color: white;
+}
+ td, th {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.titulo-sem-cor{
+    background-color: white;
+    color: black;    
+}
+.media-nota {
+    text-align: left;
+}
