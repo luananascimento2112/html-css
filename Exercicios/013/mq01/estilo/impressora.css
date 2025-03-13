@@ -1,0 +1,12 @@
+*{
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+menu {
+    display: none;
+}
+article::after {
+    content: "Esse artigo foi impresso através do site Curso em video";
+   
+}
