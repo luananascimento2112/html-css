@@ -1,0 +1,92 @@
+/* Todas as demais medias */
+
+@media print {
+    * { 
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main { 
+        width: 90vw;
+        border: 2px solid black;
+    }
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita atraves do exercicio 13 - para o curso em video';
+    }
+    
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: block;
+  }
+  #print {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  body {
+    background-image: url(../imagens/back-pc.jpg);
+  }
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #print {
+    display: none;
+  }
+  #pc {
+    display: block;
+  }
+  #tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  body {
+    background-image: url(../imagens/back-tv.jpg);
+  }
+
+main {
+    width: 700px;
+}  
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #print {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+  #tv {
+    display: block;
+  }
+}
